@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Border Radius Previewer</title>
+</head>
+<body>
+    <div class="title" id="title">
+        <h1>SQUARE BORDER RADIUS INTERACTIONS</h1>
+    </div>
+    <div class="firstElements">
+        <div class="sizeDiv">
+            <select name="size" id="size">
+                <option value="150">Small 150x150</option>
+                <option value="300">Medium 300x300</option>
+                <option value="600">Large 600x600</option>
+            </select>
+        </div>
+        
+        
+        <div class="squareCont">
+            <div class="container" id="container">
+            </div>
+        </div>
+        <div class="boxSize">
+            <div class="main" id="mainbox">
+                Result:<input type="text" id="box" value="rgb(255,255,255)">
+                Red:<input type="range" id="red" value="255" min="0" max="255">
+                Green:<input type="range" id="green" value="255" min="0" max="255">
+                Blue:<input type="range" id="blue" value="255" min="0" max="255">
+            </div>
+        </div>
+        
+    </div>
+    <div class="secondElements">
+        <div class="text" id="text">
+            <p>Enter the desired border radius size (px)</p>
+        </div>
+        <div class="label">
+            <ul>
+                <li><label for="username">Top-Left:</li>
+                    <input type="text" name="username" id="input">
+                    <button id="button1" class="button" >Change Top-Left</button>
+
+                <li><label for="username">Top-Right:</label></li>
+                    <input type="text" name="username" id="input2">
+                    <button id="button2" class="button" >Change Top-Right</button>
+
+                <li><label for="username">Bottom-Left:</label></li>
+                    <input type="text" name="username" id="input3">
+                    <button id="button3" class="button" >Change Bottom Left</button>
+
+                <li><label for="username">Bottom-Right:</label></li>
+                    <input type="text" name="username" id="input4">
+                    <button id="button4" class="button" >Change Bottom Right</button>
+
+            </ul>
+        
+        
+        </div>
+        <div class="reset">
+            <button id="buttonReset">Reset Square</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
