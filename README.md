@@ -1,2 +1,11 @@
 # SquareBorderRadiusInteractions
-Web page that allows user to define each border size radius of a square, user can also choose the colour of all elements
+
+Webpage made using HTML, CSS, and JavaScript
+
+Allows user to set a size for a square
+
+than the user can modify the sizes of each border radius by inputing pixel size in a label
+
+user can then reset the square for its normal form
+
+user can choose the colour of all elements in the webpage using a RGB colour selector
